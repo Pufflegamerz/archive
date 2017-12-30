@@ -1,0 +1,53 @@
+<html>
+<!-- 
+Hype# html5 editor. Developed by Pufflegamerz Studios.
+:D
+-->
+<center>
+<title>Hype editor</title>
+<script>
+var myWindow;
+
+function makeWindow(text){
+    myWindow = window.open("","myWindow");
+  myWindow.document.write(text);
+  myWindow.document.close();
+} // end makeWindow
+</script>
+</head>
+<body bgColor = "White">
+
+<form name = "myForm" >
+<p>| Welcome to the Hype HTML5 editor |<br>| v0.1 alpha | Made by Pufflegamerz Studios</p>
+<button onclick="credit()">Credits</button>
+<input type = "button"
+       value = "Run Code"
+       onClick = makeWindow(window.document.myForm.txtInput.value)>
+<br>
+<textarea name="txtInput" cols="150" rows="30" ></textarea>
+</form>
+<script>
+function credit() {
+	alert("Hype# was Developed by Pufflegamerz.")
+}
+
+</script>
+<style>
+textarea {
+  resize: none;
+border: transparent;
+background-color: green;
+
+}
+body {
+  background-color: #00ffff;
+
+}
+</style>
+<script>
+function clearText()  
+{
+    document.getElementById('txtInput').value = "";
+    
+}  
+</script>
