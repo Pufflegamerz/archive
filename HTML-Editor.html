@@ -1,0 +1,204 @@
+<html>
+<!--Pufflegamerz HTML tester. Some code from view-source:http://cs.iupui.edu/~aharris/webprog/jsTester.html -->
+<!-- made by pufflegamerz-->
+<center>
+<h1>
+HTML editor
+</h1>
+<p>
+
+<p>
+<body style='background-color:red'>
+<p> To learn more about html, go to w3schools.com</p>
+<!--Html box and run code-->
+
+<script>
+
+var myWindow;
+
+function makeWindow(text){
+  //NOTE:  no spaces in the second parameter string!!! :D
+    myWindow = window.open("","myWindow");
+  myWindow.document.write(text);
+  myWindow.document.close();
+} // end makeWindow
+</script>
+</head>
+
+<body bgColor = "White">
+
+<form name = "myForm" 
+ action = 
+ "http://www.cs.iupui.edu/cgi-bin/cgiwrap/aharris/codeViewer/codeViewer.cgi">
+<h1></h1>
+
+
+
+    
+
+
+
+
+<input type = "button"
+       value = "Run"
+       onClick = makeWindow(window.document.myForm.txtInput.value)>
+
+<br>
+<br>
+<font size = 7>
+<textArea name = txtInput
+          rows = 20
+          cols = 50>
+
+</textArea>
+</font>
+<br>
+
+</form>
+
+<br>
+<h2> The HTML Toolbox <h2> 
+<body>
+<hr />
+<script language="javascript"> 
+function toggle() {
+	var ele = document.getElementById("toggleText");
+	var text = document.getElementById("displayText");
+	if(ele.style.display == "block") {
+    		ele.style.display = "none";
+		text.innerHTML = "show toolbox";
+  	}
+	else {
+		ele.style.display = "block";
+		text.innerHTML = "hide toolbox";
+	}
+} 
+</script>
+ <!--end of code | start of toolbox code-->
+<a id="displayText" href="javascript:toggle();">show toolbox</a> 
+<div id="toggleText" style="display: none"><xmp>
+<!-->
+<!DOCTYPE>
+<a>
+<abbr>
+<acronym>
+<address>
+<applet>
+<area>
+<article>
+<aside>
+<audio>
+<b>
+<base>
+<basefont>
+<bdi>
+<bdo>
+<big>
+<blockquote>
+<body>
+<br>
+<button>
+<canvas>
+<caption>
+<center>
+<cite>
+<code>
+<col>
+<colgroup>
+<datalist>
+<dd>
+<del>
+<details>
+<dfn>
+<dialog>
+<dir>
+<div>
+<dl>
+<dt>
+<em>
+<embed>
+<fieldset>
+<figcaption>
+<figure>
+<font>
+<footer>
+<form>
+<frame>
+<frameset>
+<h1> - <h6>
+<head>
+<header>
+<hr>
+<html>
+<i>
+<iframe>
+<img>
+<input>
+<ins>
+<kbd>
+<keygen>
+<label>
+<legend>
+<li>
+<link>
+<main>
+<map>
+<mark>
+<menu>
+<menuitem>
+<meta>
+<meter>
+<nav>
+<noframes>
+<noscript>
+<object>
+<ol>
+<optgroup>
+<option>
+<output>
+<p>
+<param>
+<pre>
+<progress>
+<q>
+<rp>
+<rt>
+<ruby>
+<s>
+<samp>
+<script>
+<section>
+<select>
+<small>
+<source>
+<span>
+<strike>
+<strong>
+<style>
+<sub>
+<summary>
+<sup>
+<table>
+<tbody>
+<td>
+<textarea>
+<tfoot>
+<th>
+<thead>
+<time>
+<title>
+<tr>
+<track>
+<tt>
+<u>
+<ul>
+<var>
+<video>
+<wbr>
+
+</xmp>
+</div>
+<center>
+
+</center>
+</html>
